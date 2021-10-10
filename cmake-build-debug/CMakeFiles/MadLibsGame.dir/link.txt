@@ -1,0 +1,3 @@
+D:\JetBrains\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\MadLibsGame.dir/objects.a
+D:\msys64\mingw64\bin\ar.exe cr CMakeFiles\MadLibsGame.dir/objects.a @CMakeFiles\MadLibsGame.dir\objects1.rsp
+D:\msys64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\MadLibsGame.dir/objects.a -Wl,--no-whole-archive -o MadLibsGame.exe -Wl,--out-implib,libMadLibsGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MadLibsGame.dir\linklibs.rsp
